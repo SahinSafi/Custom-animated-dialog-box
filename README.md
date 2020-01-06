@@ -61,3 +61,51 @@
         android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+#this is our open animation file, it will be in res/anim/open.xml file
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate
+        android:duration="170"
+        android:fromYDelta="-100%"
+        android:toYDelta="5%"
+        />
+</set>
+
+#this is our close animation file, it will be in res/anim/close.xml file
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:duration="170"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="0.0"
+        android:toYScale="0.0" />
+
+    <alpha
+        android:duration="170"
+        android:fromAlpha="1.0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:toAlpha="0.0" />
+</set>
+
+#this is popup button animation file, it will be  res/anim/button_anim.xml file
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale
+        android:duration="170"
+        android:fromXScale="0.0"
+        android:fromYScale="0.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:toXScale="1.2"
+        android:toYScale="1.2" />
+
+    <alpha
+        android:duration="170"
+        android:fromAlpha="0.0"
+        android:interpolator="@android:anim/decelerate_interpolator"
+        android:toAlpha="1.0" />
+</set>
