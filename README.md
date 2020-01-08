@@ -1,3 +1,4 @@
+![](dialog_box.gif)
 #in this project i will create a animated dialog box. At first we will create all xml files, so this is our custom dialog layout.
 
 
