@@ -1,3 +1,5 @@
+![dialog_box](https://user-images.githubusercontent.com/52670156/72221494-7d758e00-3585-11ea-904d-59f1b320d1af.gif)
+
 
 #in this project i will create a animated dialog box. At first we will create all xml files, so this is our custom dialog layout.
 
